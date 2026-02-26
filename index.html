@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Advanced Tic Tac Toe</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+<h1>🎮 Tic Tac Toe</h1>
+
+<!-- SCOREBOARD -->
+<div class="scoreboard">
+<div>X: <span id="xScore">0</span></div>
+<div>O: <span id="oScore">0</span></div>
+<div>Draw: <span id="drawScore">0</span></div>
+</div>
+
+<div class="status" id="status">Your Turn (X)</div>
+
+<div class="board">
+<div class="cell"></div>
+<div class="cell"></div>
+<div class="cell"></div>
+<div class="cell"></div>
+<div class="cell"></div>
+<div class="cell"></div>
+<div class="cell"></div>
+<div class="cell"></div>
+<div class="cell"></div>
+
+<!-- WIN LINE -->
+<div id="winLine"></div>
+</div>
+</div>
+
+<!-- RESULT POPUP -->
+<div class="result-screen" id="resultScreen">
+<div class="result-box">
+<h2 id="resultText"></h2>
+<button onclick="newGame()">New Game</button>
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
